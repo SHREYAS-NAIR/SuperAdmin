@@ -1,0 +1,28 @@
+.ButtonSection {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: fit-content;
+  }
+  .ButtonSection:hover{
+    scale: 102%;
+  }
+  .ButtonSection button {
+    padding: 0px 10px 0px 10px;
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+    background: #161D2F;
+    border: 1px solid #2B2D32;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .ButtonSection button:hover{
+    cursor: pointer;
+    border: 2px solid #2B2D32;
+  }

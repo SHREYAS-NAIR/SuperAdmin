@@ -1,0 +1,116 @@
+.UserInformation {
+  width: 79%;
+  height: 94.3vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.MainForm {
+  width: 70%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+
+  /* header text */
+
+  color: #b1b1b1;
+  padding: 50px 20px 30px 40px;
+}
+.MainForm input {
+  background-color: #161d2f;
+  border-style: hidden;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* text color */
+  caret-color: #6a6e79;
+  color: #6a6e79;
+  padding: 5px 5px 2px 10px;
+  border-radius: 7px;
+}
+.MainForm a {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 1px;
+  width: 175px;
+  text-align: left;
+  /* icons */
+  color: #b0d136;
+  text-decoration: none;
+  border-bottom: 1px solid #b0d136; /* Add a solid red underline */
+  padding-bottom: 2px;
+}
+.MainForm a:hover{
+  letter-spacing: 1.3px;
+  border-bottom: 2px solid #b0d136;
+}
+
+.Row1,
+.Row2,
+.Row3,
+.Row4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px 10px 30px 0px;
+}
+.Row1,
+.Row2,
+.Row3,
+.Row4 label {
+  caret-color: transparent;
+}
+.Col1,
+.Col2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+  padding: 0px 30px 0px 0px;
+}
+.OnlyOneCol {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  padding: 0px 30px 0px 0px;
+}
+
+.EditButton {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  padding: 20px 30px 0px 0px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  justify-content: right;
+  align-items: start;
+  color: #ffffff;
+}
+.EditButton img {
+  width: 10px;
+  height: auto;
+  margin-right: 10px;
+}
+.ChangePassword{
+  padding: 20px 0px 0px 0px
+}
+.SubmitButton{
+  padding: 30px 0px 0px 0px;
+  align-items: left;
+}

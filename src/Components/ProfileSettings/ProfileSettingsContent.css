@@ -1,0 +1,20 @@
+.ProfileSettingsContent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #070D19;
+    width: 100%;
+    height: 94.3vh;
+}
+.Seperator{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 1%;
+    height: 90.3vh;
+}
+.Seperator img{
+    height: 650px;
+    width: 2px;
+    border-radius: 1px;
+}

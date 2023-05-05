@@ -1,0 +1,22 @@
+.ProfileSettingsPage {
+  display: flex;
+  flex-direction: column;
+}
+.profileSettingsHeading {
+  background: #0f131b;
+  width: 100%;
+  text-align: left;
+  padding: 10px 0px 10px 10px;
+  /* Subject title-subheadline */
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* icons */
+
+  color: #b0d136;
+}
